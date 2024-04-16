@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up ˚୨୧⋆｡˚</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="formm">
+        <h1>Sign-up Form !!</h1>
+        <form action="">
+            <fieldset>
+                <legend>Sign-up</legend>
+                <input type="text" name="unname" id="usname" placeholder="username" onblur="cUnname()" onfocus="ccUnname()">
+                <br><br>
+                <input type="password" name="pass" id="passw" placeholder="password" onblur="cPass()" onfocus="ccPass()">
+                <br><br>
+                <input type="checkbox" name="passa" id="passch" onclick="showpass()">
+                <label for="passa">Show Password</label>
+                <br><br>
+                <input type="email" name="eml" id="emai" placeholder="email" onblur="cEmail()" onfocus="ccEmail()">
+                <br><br>
+                <select name="gender" id="gen" onblur="cSele()" onfocus="ccSele()">
+                    <option value="" selected checked disabled>Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="pref">Prefer not to mention</option>
+                </select><br><br>
+        
+                <input type="submit" id="submit" value="Submit" onchange="finc()" onclick="return info()">
+                <input type="reset" id="reset" onclick="refresh()">
+            </fieldset>
+            <br>
+            <p>｡ﾟ•┈꒰ა ♡ ໒꒱┈•  ｡ﾟ</p>
+            <br>
+            <fieldset>
+                <legend>Information</legend>
+                <p id="out"></p>
+            </fieldset>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

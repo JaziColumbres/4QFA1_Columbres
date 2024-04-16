@@ -1,0 +1,94 @@
+@font-face {
+    font-family: cute;
+    src: url(media/Info\ Story.otf);
+}
+
+@font-face {
+    font-family: cuteT;
+    src: url(media/MotleyForcesRegular-w1rZ3.ttf);
+}
+
+body{
+    background-color: rgb(243, 208, 219);
+}
+
+#formm{
+    position: relative;
+    border: 2px solid rgb(180, 135, 149);
+    padding: 24px;
+    width: 40vw;
+    height:80vh;
+    left: 26vw;
+    top: 5vh;
+    background-color: rgb(248, 241, 245);
+    border-radius: 50px;
+}
+
+h1{
+    position: relative;
+    font-family: cuteT;
+    font-weight: 10;
+    color: rgb(150, 109, 122);
+    left: 12.3vw;
+}
+
+input{
+    position: absolute;
+    border: 2px solid;
+    border-color: rgb(180, 135, 149);
+    border-radius: 5px;
+    font-family: cute;
+    color: rgb(112, 74, 86);
+    left: 16vw;
+}
+
+select{
+    position: absolute;
+    font-family: cute;
+    color: rgb(112, 74, 86);
+    font-size: 13px;
+    border: 2px solid;
+    border-color: rgb(180, 135, 149);
+    border-radius: 5px;
+    left: 16vw;
+}
+
+label{
+    position: relative;
+    left: 17vw;
+    top: 0.1vh;
+    font-family: cute;
+    color: rgb(112, 74, 86);
+    font-size: 14px;
+}
+
+#submit{
+    position: relative;
+    left: 18vw;
+    bottom: 0.1vh;
+    background-color: rgb(235, 205, 215);
+    color: rgb(112, 74, 86);
+}
+
+#reset{
+    background-color: rgb(235, 205, 215);
+}
+
+p{
+    position: relative;
+    left: 16vw;
+    font-family: cute;
+    color: rgb(112, 74, 86);
+    font-size: 14px;
+}
+
+fieldset{
+    border-color: rgb(245, 215, 226);
+    border-radius: 10px;
+}
+
+legend{
+    font-family: cute;
+    color: rgb(153, 121, 131);
+    font-size: 16px;
+}
